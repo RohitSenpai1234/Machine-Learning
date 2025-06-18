@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import LabelEncoder
+
 
 # Load and preprocess dataset for training (ideally done once, then saved)
 df = pd.read_csv("personality_dataset.csv")
